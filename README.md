@@ -2,6 +2,12 @@
 
 Homebrew packages maintained by Karthikeyan Ranasthala.
 
+## Install lot
+
+```sh
+brew install KarthikeyanRanasthala/tap/lot
+```
+
 ## Install Local Fonts Agent
 
 ```sh
