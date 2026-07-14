@@ -1,8 +1,8 @@
 class Lot < Formula
   desc "Inspect Lottie and dotLottie files in the terminal"
   homepage "https://github.com/KarthikeyanRanasthala/lot"
-  url "https://github.com/KarthikeyanRanasthala/lot/releases/download/v0.1.1/lot-0.1.1-source.tar.gz"
-  sha256 "04529ef340ea9bf9103b11550b2e2c4dd59fd4dc9f24fd1bffe3405da89d56b1"
+  url "https://github.com/KarthikeyanRanasthala/lot/releases/download/v0.2.0/lot-0.2.0-source.tar.gz"
+  sha256 "82fc435e5c4b12dc5ece4dc6221ccab4a36f43e0c9aa621b9de84c8cd1b955c6"
   license "MIT"
 
   depends_on "rust" => :build
