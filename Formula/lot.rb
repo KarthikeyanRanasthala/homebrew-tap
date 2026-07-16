@@ -1,14 +1,14 @@
 class Lot < Formula
   desc "Inspect Lottie and dotLottie files in the terminal"
   homepage "https://github.com/KarthikeyanRanasthala/lot"
-  url "https://github.com/KarthikeyanRanasthala/lot/releases/download/v0.3.0/lot-0.3.0-source.tar.gz"
-  sha256 "89c511d051ea94631e5aac4484950a466bd3e1218996914aded6d4b1bb4bed71"
+  url "https://github.com/KarthikeyanRanasthala/lot/releases/download/v0.3.1/lot-0.3.1-source.tar.gz"
+  sha256 "78af59e29af772c4e8066c18331cd04ed00acdcdcdacf8e8b39b9dea3cd3dd8f"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/KarthikeyanRanasthala/lot/releases/download/v0.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "25e10bd8400c6df638fb4c576f8cf47af6282b8247267200e9bc570e6734cf0d"
-    sha256 cellar: :any_skip_relocation, tahoe:       "d7b4463fe83ac61f6eeb89ee2b5d0d0336501fd77c7550c653b913531405fb84"
+    root_url "https://github.com/KarthikeyanRanasthala/lot/releases/download/v0.3.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "a63183b3e4111a305549a8af814aa6c6020d8a48128ddd9aa966300638166d19"
+    sha256 cellar: :any_skip_relocation, tahoe:       "066ac6060323bf7eb9e683988f1b0a92e83e5fb409139b62ad979641bdf9d4ad"
   end
 
   depends_on "rust" => :build
